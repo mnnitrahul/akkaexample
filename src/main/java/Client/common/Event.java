@@ -1,0 +1,25 @@
+package Client.common;
+
+/**
+ * Created by rahul.ka on 20/05/16.
+ */
+public enum Event {
+    BOOKING_CONFIRMED,
+    BOOKING_REJECTED,
+
+    USER_PAUSE,
+    USER_COMMIT,
+    USER_ABORT,
+    USER_ARCHIVE,
+    USER_RESUME,
+
+    SYSTEM_CREDIT_LIMIT_BREACH,
+    SYSTEM_CREDIT_LIMIT,
+    SYSTEM_BUDGET_EXHAUSTED,
+
+    TIMEOUT_START_DATE,
+    TIMEOUT_END_DATE,
+    TIMEOUT_SETTLEMENT,
+    TIMEOUT_CLOSE,
+    TIMEOUT_PAUSE
+}
